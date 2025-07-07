@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce WebSite</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+      integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="custom-container">
+      <!-- Upper Bar -->
+      <div class="bg-dark text-light py-2">
+        <div
+          class="container-fluid d-flex justify-content-between align-items-center"
+        >
+          <div class="small">
+            Free shipping, 30-day return or refund guarantee.
+          </div>
+          <div>
+            <a href="#" class="text-light text-decoration-none me-3">SIGN IN</a>
+            <a href="#" class="text-light text-decoration-none">SIGN UP</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Navbar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold fs-4 logo" href="home.html"
+            ><span class="logo-inside">HAMZA</span> STORE</a
+          >
+
+          <!-- Toggler for mobile -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarsExample09"
+            aria-controls="navbarsExample09"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Collapsible content -->
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarsExample09"
+          >
+            <ul class="navbar-nav d-flex flex-row gap-3 mb-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">PRODUCT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-Us.html">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Add-to-Cart.html">
+                  <button class="btn btn-primary">🛒 1</button></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="section">
+      <div class="section-left">
+        <h5>EXPLORE THE LATEST IN TECH INDUSTRIES</h5>
+        <h2>Your Destination For Cutting-Edge Gadgets!</h2>
+        <p>
+          Welcome to Hamza eComStore, your ultimate destination for
+          cutting-edge<br />
+          gadgets! Explore the latest in tech innovation and style with us.
+          Shop<br />
+          now and discover a world of possibilities!<br />
+        </p>
+        <a href="products.html"><button>Explore Our Products</button></a>
+      </div>
+
+      <div class="section-right">
+        <img src="assects/section-bg.svg" alt="" />
+      </div>
+
+      <div class="custom-shape-divider-bottom">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+            opacity=".25"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+            opacity=".5"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </div>
+
+    <section class="section1">
+      <div class="set-section1">
+        <div class="set-section1-text">
+          <span style="color: blue">NEW YEAR SALE</span>
+          <b style="font-size: 30px"> GET AND EXTRA 50% OFF</b>
+          <span
+            style="font-size: 20px; text-decoration: underline; color: darkgray"
+            >Show now</span
+          >
+        </div>
+        <div class="set-section1-img">
+          <img src="assects/secton-image1.jpg" />
+        </div>
+      </div>
+      <div class="set-section1">
+        <div class="set-section1-text">
+          <span style="color: blue">NEW YEAR SALE</span>
+          <b style="font-size: 30px"> GET AND EXTRA 50% OFF</b>
+          <span
+            style="font-size: 20px; text-decoration: underline; color: darkgray"
+            >Show now</span
+          >
+        </div>
+        <div class="set-section1-img">
+          <img src="assects/secton-image2.jpg" />
+        </div>
+      </div>
+      <div class="set-section1">
+        <div class="set-section1-text">
+          <span style="color: blue">NEW YEAR SALE</span>
+          <b style="font-size: 30px"> GET AND EXTRA 50% OFF</b>
+          <span
+            style="font-size: 20px; text-decoration: underline; color: darkgray"
+            >Show now</span
+          >
+        </div>
+        <div class="set-section1-img">
+          <img src="assects/secton-image3.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-section">
+      <div class="feature-item">
+        <i class="fas fa-truck"></i>
+        <div class="feature-text">
+          <h4>Worldwide Shipping</h4>
+          <p>Order Above $100</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <i class="fas fa-undo-alt"></i>
+        <div class="feature-text">
+          <h4>Easy 30 Day Returns</h4>
+          <p>Back Returns In 7 Days</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <i class="fas fa-hand-holding-usd"></i>
+        <div class="feature-text">
+          <h4>Money Back Guarantee</h4>
+          <p>Guarantee Within 30-Days</p>
+        </div>
+      </div>
+      <div class="feature-item">
+        <i class="fas fa-headset"></i>
+        <div class="feature-text">
+          <h4>Easy Online Support</h4>
+          <p>24/7 Any Time Support</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="text-area">
+      <h2>Why Choose Hamza Store</h2>
+      <p>
+        Choose Hamza EduHub for a holistic, enriching learning experience that
+        empowers you to achieve your goals.
+      </p>
+    </div>
+
+    <div class="item-area">
+      <div class="set-item">
+        <div class="item-Category">Computer</div>
+        <div class="item-img">
+          <img
+            src="assects/item_area-computer.png"
+            class="img-fluid"
+            alt="Computer"
+          />
+        </div>
+        <div class="item-area-text">
+          <h3>Laptop</h3>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>
+            Powerful laptop with quad-core i5, 8GB RAM, 256GB SSD, 14-inch FHD.
+          </p>
+          <div class="price">
+            <span>$999.99</span>
+            <span class="text-muted text-decoration-line-through">$3999</span>
+          </div>
+          <div class="stock">Total Stocks Available: 50</div>
+          <div class="text-area-quantity">
+            Quantity:
+            <button class="minus">-</button>
+            <input type="text" placeholder="1" class="inputField" readonly />
+            <button class="plus">+</button>
+          </div>
+          <div class="add-to-cart">
+            <button>🛒 Add To Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Repeat card as needed -->
+      <div class="set-item">
+        <div class="item-Category">Mobile</div>
+        <div class="item-img">
+          <img
+            src="assects/item_area-mobil.png"
+            class="img-fluid"
+            alt="Computer"
+          />
+        </div>
+        <div class="item-area-text">
+          <h3>Smartphone</h3>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>
+            Feature-rich smartphone with a 6.2-inch screen, 12MP dual camera,
+            128GB storage, and a 4000mAh battery.
+          </p>
+          <div class="price">
+            <span>$499.99</span>
+            <span class="text-muted text-decoration-line-through">$1999</span>
+          </div>
+          <div class="stock">Total Stocks Available: 100</div>
+          <div class="text-area-quantity">
+            Quantity:
+            <button class="minus">-</button>
+            <input type="text" placeholder="1" readonly class="inputField" />
+            <button class="plus">+</button>
+          </div>
+          <div class="add-to-cart">
+            <button>🛒 Add To Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more .set-item cards as needed -->
+      <div class="set-item">
+        <div class="item-Category">Audio</div>
+        <div class="item-img">
+          <img
+            src="assects/item_area-headphone.png"
+            class="img-fluid"
+            alt="Computer"
+          />
+        </div>
+        <div class="item-area-text">
+          <h3>Wireless Headphones</h3>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>
+            High-quality wireless headphones with over-ear design, 20 hours of
+            battery life, and a sleek black color.
+          </p>
+          <div class="price">
+            <span>$149.99</span>
+            <span class="text-muted text-decoration-line-through">$599</span>
+          </div>
+          <div class="stock">Total Stocks Available: 30</div>
+          <div class="text-area-quantity">
+            Quantity:
+            <button class="minus">-</button>
+            <input type="text" placeholder="1" readonly class="inputField" />
+            <button class="plus">+</button>
+          </div>
+          <div class="add-to-cart">
+            <button>🛒 Add To Cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Add more .set-item cards as needed -->
+      <div class="set-item">
+        <div class="item-Category">Wearables</div>
+        <div class="item-img">
+          <img
+            src="assects/item_area-watch.png"
+            class="img-fluid"
+            alt="Computer"
+          />
+        </div>
+        <div class="item-area-text">
+          <h3>Watches</h3>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>
+            Smartwatch with a 1.3-inch AMOLED display, water-resistant design,
+            fitness tracking features, and a stylish silver color.
+          </p>
+          <div class="price">
+            <span>$199.99</span>
+            <span class="text-muted text-decoration-line-through">$799</span>
+          </div>
+          <div class="stock">Total Stocks Available: 20</div>
+          <div class="text-area-quantity">
+            Quantity:
+            <button class="minus">-</button>
+            <input type="text" placeholder="1" readonly class="inputField" />
+            <button class="plus">+</button>
+          </div>
+          <div class="add-to-cart">
+            <button>🛒 Add To Cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Add more .set-item cards as needed -->
+      <div class="set-item">
+        <div class="item-Category">Audio</div>
+        <div class="item-img">
+          <img
+            src="assects/item_area-speaker.png"
+            class="img-fluid"
+            alt="Computer"
+          />
+        </div>
+        <div class="item-area-text">
+          <h3>Speakers</h3>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>
+            High-quality wireless headphones with over-ear design, 20 hours of
+            battery life, and a sleek black color.
+          </p>
+          <div class="price">
+            <span>$149.99</span>
+            <span class="text-muted text-decoration-line-through">$599</span>
+          </div>
+          <div class="stock">Total Stocks Available: 30</div>
+          <div class="text-area-quantity">
+            Quantity:
+            <button class="minus">-</button>
+            <input type="text" placeholder="1" readonly class="inputField" />
+            <button class="plus">+</button>
+          </div>
+          <div class="add-to-cart">
+            <button>🛒 Add To Cart</button>
+          </div>
+        </div>
+      </div>
+      <!-- Add more .set-item cards as needed -->
+      <div class="set-item">
+        <div class="item-Category">Video</div>
+        <div class="item-img">
+          <img
+            src="assects/item_area-tv.png"
+            class="img-fluid"
+            alt="Computer"
+          />
+        </div>
+        <div class="item-area-text">
+          <h3>Television</h3>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>
+            Smartwatch with a 1.3-inch AMOLED display, water-resistant design,
+            fitness tracking features, and a stylish silver color.
+          </p>
+          <div class="price">
+            <span>$199.99</span>
+            <span class="text-muted text-decoration-line-through">$799</span>
+          </div>
+          <div class="stock">Total Stocks Available: 20</div>
+          <div class="text-area-quantity">
+            Quantity:
+            <button class="minus">-</button>
+            <input type="text" placeholder="1" readonly class="inputField" />
+            <button class="plus">+</button>
+          </div>
+          <div class="add-to-cart">
+            <button>🛒 Add To Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-area">
+      <h2>Why Choose Hamza Store</h2>
+      <p>
+        Choose Hamza EduHub for a holistic, enriching learning experience that
+        empowers you to achieve your goals.
+      </p>
+    </div>
+
+    <div class="about-section">
+      <div class="about-section-left">
+        <div>
+          <div class="about-section-left-number">1</div>
+          <h3>Wide Selection</h3>
+          <p>
+            Hamza Store offers a diverse range of gadgets, from smartphones to
+            smart home devices, ensuring you find what you need to elevate your
+            lifestyle and meet your tech requirements.
+          </p>
+        </div>
+        <div>
+          <div class="about-section-left-number">2</div>
+          <h3>Quality Assurance</h3>
+          <p>
+            Every gadget at Hamza Store undergoes rigorous quality checks,
+            guaranteeing reliability and performance, so you can shop with
+            confidence knowing you're getting the best.
+          </p>
+        </div>
+        <div>
+          <div class="about-section-left-number">3</div>
+          <h3>Competitive Prices</h3>
+          <p>
+            Enjoy great value with Hamza Store's competitive prices on
+            high-quality gadgets, making top-of-the-line technology accessible
+            to all without compromising on quality or performance.
+          </p>
+        </div>
+      </div>
+      <div class="about-section-middle">
+        <div class="circle-border">
+          <img src="assects/about-section-bg.png" class="img-fluid" alt="" />
+        </div>
+      </div>
+
+      <div class="about-section-right">
+        <div>
+          <div class="about-section-right-number">4</div>
+          <h3>Expert Guidance</h3>
+          <p>
+            Our knowledgeable staff provides expert guidance, helping you choose
+            the right gadget to meet your needs and preferences, ensuring you
+            make informed decisions every step of the way.
+          </p>
+        </div>
+        <div>
+          <div class="about-section-right-number">5</div>
+          <h3>Convenient Shopping</h3>
+          <p>
+            With Hamza Store, shopping for gadgets is easy and convenient. Our
+            user-friendly website and secure payment options ensure a seamless
+            experience from browsing to checkout, all from the comfort of your
+            home.
+          </p>
+        </div>
+        <div>
+          <div class="about-section-right-number">6</div>
+          <h3>Excellent Service</h3>
+          <p>
+            Hamza Store is committed to providing excellent service to our
+            customers. From prompt assistance with inquiries to efficient
+            handling of orders and deliveries, we prioritize your satisfaction
+            every step of the way.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-section">
+      <div class="container">
+        <footer class="py-5">
+          <div class="row">
+            <div id="removeOnMobile" class="col-12 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column set-color">
+                <li class="nav-item mb-2">
+                  <a href="home.html" class="nav-link p-00">Home</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="about.html" class="nav-link p-00">About</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="products.html" class="nav-link p-00">Product</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="contact-Us.html" class="nav-link p-00">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-2 mb-3">
+              <h5>Section</h5>
+              <ul class="nav flex-column set-color">
+                <li class="nav-item mb-2">
+                  <a href="home.html" class="nav-link p-00">Home</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="about.html" class="nav-link p-00">About</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="products.html" class="nav-link p-00">Product</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="contact-Us.html" class="nav-link p-00">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-md-5 offset-md-1 mb-3">
+              <form>
+                <h5>NEWSLETTER</h5>
+                <p>Be the first to know about new arrivals, sales & promos!</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden"
+                    >Email address</label
+                  >
+                  <input
+                    id="newsletter1"
+                    type="email"
+                    class="form-control"
+                    placeholder="Email address"
+                  />
+                  <button class="btn btn-primary" type="button">
+                    Subscribe
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column flex-sm-row justify-content-center py-4 my-4 border-top"
+          >
+            <p>© Design and Code by Hamza Technical</p>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
